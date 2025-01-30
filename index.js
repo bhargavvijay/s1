@@ -5,7 +5,7 @@ import { HfInference } from "@huggingface/inference";
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
-const hf = new HfInference(process.env.HF_API_KEY);
+const hf = new HfInference("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");
 
 // Middleware to parse JSON
 app.use(express.json());
